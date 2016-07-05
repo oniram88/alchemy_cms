@@ -164,7 +164,7 @@ module Alchemy
     #
     def current_location_params
       {
-        q: params[:q],
+        q: resource_search_params,
         page: params[:page]
       }
     end
